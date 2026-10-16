@@ -1,0 +1,30 @@
+name: omni_reader
+description: A modular local-first catalog reader for authorized personal archives.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^3.4.10 # Voltando para a 3.x, algumas pessoas reportaram melhor estabilidade com RAR
+  path_provider: ^2.1.5
+  shared_preferences: ^2.5.3
+  http: ^1.2.0
+  html: ^0.15.4
+  dio: ^5.4.0
+  rar: ^0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  config:
+    # This project already uses CocoaPods for the macOS RAR plugin. Keep that
+    # integration on this Flutter toolchain until its SwiftPM migration works
+    # reliably with the required native plugin.
+    enable-swift-package-manager: false
