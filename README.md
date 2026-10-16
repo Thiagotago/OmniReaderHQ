@@ -1,6 +1,6 @@
 # OmniReaderHQ
 
-OmniReader is a modular Flutter reader for user-configured web catalogs and personal comic archives. The initial desktop target is macOS, with Android support (APK) available from the same codebase.
+OmniReaderHQ is a modular Flutter reader for user-configured web catalogs and personal comic archives. The initial desktop target is macOS, with Android support (APK) available from the same codebase.
 
 The app starts without a bundled catalog, reading history, favorites, or source URLs. On first launch, the user supplies a public catalog URL; catalog settings and reading data are stored locally on that installation.
 
@@ -67,7 +67,7 @@ The Android and macOS application identifiers are starter identifiers. Before pu
 
 ## Legal notice
 
-OmniReader is a software utility for catalogs and archive files selected or supplied by the user. It does not bundle a catalog, host, distribute, or endorse third-party content. Users are responsible for ensuring that their access to and use of any source or file is authorized and complies with applicable law and the source's terms.
+OmniReaderHQ is a software utility for catalogs and archive files selected or supplied by the user. It does not bundle a catalog, host, distribute, or endorse third-party content. Users are responsible for ensuring that their access to and use of any source or file is authorized and complies with applicable law and the source's terms.
 
 ## License
 
