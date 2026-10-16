@@ -1,4 +1,4 @@
-# OmniReader
+# OmniReaderHQ
 
 OmniReader is a modular Flutter reader for user-configured web catalogs and personal comic archives. The initial desktop target is macOS, with Android support (APK) available from the same codebase.
 
